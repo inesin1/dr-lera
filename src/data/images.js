@@ -4,8 +4,15 @@ export default {
     fail1: 'https://stickerbase.ru/wp-content/uploads/2020/10/51573-150x150.png',
     fail2: 'https://stickerbase.ru/wp-content/uploads/2020/10/51583-150x150.png',
     fail3: 'https://stickerbase.ru/wp-content/uploads/2020/10/51574-150x150.png',
+    end: 'https://stickerbase.ru/wp-content/uploads/2020/10/51587-150x150.png',
+    nogift: 'https://stickerbase.ru/wp-content/uploads/2020/10/51600-150x150.png',
+    nopage: 'https://stickerbase.ru/wp-content/uploads/2020/10/51569-150x150.png',
     q1: 'https://stickerbase.ru/wp-content/uploads/2020/10/51557-150x150.png',
     q2: 'https://stickerbase.ru/wp-content/uploads/2020/10/51586-150x150.png',
     q3: 'https://stickerbase.ru/wp-content/uploads/2020/10/51563-150x150.png',
-    q4: 'https://stickerbase.ru/wp-content/uploads/2020/10/51564-150x150.png'
+    q4: 'https://stickerbase.ru/wp-content/uploads/2020/10/51564-150x150.png',
+    q5: 'https://stickerbase.ru/wp-content/uploads/2020/10/51555-150x150.png',
+    q6: 'https://stickerbase.ru/wp-content/uploads/2020/10/51598-150x150.png',
+    q7: 'https://stickerbase.ru/wp-content/uploads/2020/10/51565-150x150.png',
+    q8: 'https://stickerbase.ru/wp-content/uploads/2020/10/51567-150x150.png',
 }

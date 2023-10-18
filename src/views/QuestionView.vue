@@ -42,8 +42,12 @@ export default defineComponent({
     }
   },
   created() {
+    if (!this.questionData) {
+      this.router.push(`/nopage/${this.id-1}`);
+    }
+
     if (!this.questionData.text) {
-      this.router.push(`/wait`);
+      this.router.push({ name: 'wait'});
     }
   }
 })
@@ -68,11 +72,19 @@ export default defineComponent({
       />
     </w-form>
 
-    <w-button
-        xl
-        class="mt12 pa8"
-        @click="getAnswer()"
-    >Дальше</w-button>
+    <w-flex class="gap4">
+      <w-button
+          xl
+          class="mt12 pa8"
+          @click="router.push(`/nogift/${this.id}`)"
+      >Получить подарок</w-button>
+
+      <w-button
+          xl
+          class="mt12 pa8"
+          @click="getAnswer()"
+      >Дальше</w-button>
+    </w-flex>
 
     <div class="caption mt4">
       Если кнопка не работает, обнови страницу после нажатия

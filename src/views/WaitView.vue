@@ -1,12 +1,14 @@
 <script>
 import {defineComponent} from 'vue'
 import images from "@/data/images"
+import router from "@/router"
 
 export default defineComponent({
   name: "WaitView",
   data: function () {
     return {
-      images
+      images, router,
+      canContinue: true
     }
   }
 })
@@ -21,6 +23,13 @@ export default defineComponent({
     >
       Я устааал, давай продолжим завтра. Заходи после обеда, я люблю поспать))
     </div>
+
+    <w-button
+        v-if="canContinue"
+        xl
+        class="mt12 pa8"
+        @click="router.push(`/q/5`)"
+    >Разбудить</w-button>
   </w-flex>
 </template>
 
