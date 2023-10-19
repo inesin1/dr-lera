@@ -15,4 +15,7 @@ export default {
     q6: 'https://stickerbase.ru/wp-content/uploads/2020/10/51598-150x150.png',
     q7: 'https://stickerbase.ru/wp-content/uploads/2020/10/51565-150x150.png',
     q8: 'https://stickerbase.ru/wp-content/uploads/2020/10/51567-150x150.png',
+    q9: 'https://stickerbase.ru/wp-content/uploads/2020/10/51580-150x150.png',
+    q10: 'https://stickerbase.ru/wp-content/uploads/2020/10/51567-150x150.png',
+    q11: 'https://stickerbase.ru/wp-content/uploads/2020/10/51561-150x150.png'
 }

@@ -32,6 +32,11 @@ export default defineComponent({
       if (this.answer === this.questionData.correct || !this.questionData.correct) {
         this.showFail = false;
 
+        if (this.id == 11) {
+          this.router.push(`/end`);
+          return;
+        }
+
         bot.sendMessage(`Вопрос: ${this.questionData.text}. Ответ: ${this.answer}`);
         this.router.push(`/q/${Number(this.id) + 1}`);
       } else {
