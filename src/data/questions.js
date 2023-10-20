@@ -40,8 +40,8 @@ export default [
         correct: undefined
     },
 
-/*    {
+    {
         text: 'Перед уходом задам последний вопрос, тебе все понравилось?)',
         correct: undefined
-    },*/
+    },
 ]
